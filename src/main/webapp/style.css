@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #eef3f8; margin: 0; }
+.nav { background: #0b6e99; color: #fff; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; }
+.nav a { color: #fff; text-decoration: none; margin-left: 16px; }
+.box { max-width: 400px; margin: 60px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.wide { max-width: 800px; }
+h2 { margin-top: 0; color: #0b6e99; }
+label { display: block; margin: 12px 0 4px; font-size: 14px; }
+input { width: 100%; padding: 9px; border: 1px solid #bbb; border-radius: 4px; }
+button, .btn { margin-top: 18px; padding: 10px 18px; background: #0b6e99; color: #fff; border: 0; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
+.error { background: #fde8e8; color: #b00020; padding: 8px; border-radius: 4px; }
+.success { background: #e6f6ea; color: #1b7a33; padding: 8px; border-radius: 4px; }
+.cards a { margin: 8px 8px 0 0; }
